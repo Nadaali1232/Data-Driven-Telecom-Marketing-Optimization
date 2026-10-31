@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans, Liberation Sans, Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="20" y="20" width="1560" height="860" rx="26" fill="#fff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="60" y="80" font-size="34" font-weight="bold" text-anchor="start" fill="#1f2933" >Data-Driven Telecom Marketing Optimization</text>
+<text x="60" y="108" font-size="17" font-weight="normal" text-anchor="start" fill="#52606d" >Machine learning-based churn prediction and customer segmentation framework</text>
+<text x="1540" y="70" font-size="15" font-weight="normal" text-anchor="end" fill="#52606d" >Graduation project · University of Khartoum</text>
+<text x="1540" y="92" font-size="15" font-weight="normal" text-anchor="end" fill="#52606d" >Paper: arXiv:2607.10260</text>
+<line x1="60" y1="122" x2="1540" y2="122" stroke="#cbd2d9" stroke-width="1.2"/>
+<rect x="60" y="145" width="250" height="92" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<circle cx="82" cy="169" r="13" fill="#1f2933"/>
+<text x="82" y="174" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff" >1</text>
+<text x="104" y="174" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Telco churn data</text>
+<text x="76" y="202" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >7,043 customers · 21 columns</text>
+<text x="76" y="222" font-size="13.5" font-weight="normal" text-anchor="start" fill="#52606d" >26.6% churn (imbalanced)</text>
+<line x1="314" y1="191.0" x2="364" y2="191.0" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="368" y="145" width="250" height="92" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<circle cx="390" cy="169" r="13" fill="#1f2933"/>
+<text x="390" y="174" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff" >2</text>
+<text x="412" y="174" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Cleaning &amp; EDA</text>
+<text x="384" y="202" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >11 rows removed → 7,032</text>
+<text x="384" y="222" font-size="13.5" font-weight="normal" text-anchor="start" fill="#52606d" >class imbalance identified</text>
+<line x1="622" y1="191.0" x2="672" y2="191.0" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="676" y="145" width="250" height="92" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<circle cx="698" cy="169" r="13" fill="#1f2933"/>
+<text x="698" y="174" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff" >3</text>
+<text x="720" y="174" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Feature engineering</text>
+<text x="692" y="202" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >15 domain-informed features</text>
+<text x="692" y="222" font-size="13.5" font-weight="normal" text-anchor="start" fill="#52606d" >engagement · spend · stability</text>
+<line x1="930" y1="191.0" x2="980" y2="191.0" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="984" y="145" width="250" height="92" rx="14" fill="#BFE0FF" stroke="#1f2933" stroke-width="1.6"/>
+<circle cx="1006" cy="169" r="13" fill="#1f2933"/>
+<text x="1006" y="174" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff" >4</text>
+<text x="1028" y="174" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Modeling &amp; tuning</text>
+<text x="1000" y="202" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >XGBoost · LightGBM · CatBoost</text>
+<text x="1000" y="222" font-size="13.5" font-weight="normal" text-anchor="start" fill="#52606d" >randomized search · F1 threshold</text>
+<line x1="1238" y1="191.0" x2="1286" y2="191.0" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="1290" y="145" width="250" height="92" rx="14" fill="#FFD9B8" stroke="#1f2933" stroke-width="1.6"/>
+<circle cx="1312" cy="169" r="13" fill="#1f2933"/>
+<text x="1312" y="174" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff" >5</text>
+<text x="1334" y="174" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Segmentation</text>
+<text x="1306" y="202" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >K-Means customer value tiers</text>
+<text x="1306" y="222" font-size="13.5" font-weight="normal" text-anchor="start" fill="#52606d" >× churn risk → marketing action</text>
+<path d="M1109,237 L1109,262 L430,262 L430,286" fill="none" stroke="#2b6cb0" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<path d="M1415,237 L1415,286" fill="none" stroke="#dd6b20" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<rect x="60" y="290" width="740" height="330" rx="18" fill="#fff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="80" y="320" font-size="17" font-weight="bold" text-anchor="start" fill="#2b6cb0" >Churn prediction models (held-out test set, 1,407 customers)</text>
+<rect x="80" y="338" width="213" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="186.5" y="364" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2933" >XGBoost</text>
+<text x="186.5" y="387" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >threshold 0.31 · class-weighted</text>
+<rect x="323" y="338" width="213" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="429.5" y="364" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2933" >LightGBM</text>
+<text x="429.5" y="387" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >threshold 0.42 · class-weighted</text>
+<rect x="566" y="338" width="213" height="62" rx="14" fill="#BFE0FF" stroke="#2b6cb0" stroke-width="2"/>
+<text x="672.5" y="364" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2933" >CatBoost  ★ deployed</text>
+<text x="672.5" y="387" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >threshold 0.59 · class-weighted</text>
+<rect x="80" y="414" width="700" height="182" rx="8" fill="#F4F5F7" stroke="#cbd2d9" stroke-width="1.2"/>
+<rect x="648" y="415" width="131" height="180" rx="7" fill="#BFE0FF" opacity="0.55"/>
+<text x="94" y="432" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Metric</text>
+<text x="370" y="432" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >XGBoost</text>
+<text x="560" y="432" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >LightGBM</text>
+<text x="715" y="432" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >CatBoost</text>
+<line x1="80" y1="440" x2="780" y2="440" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="458" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Accuracy</text>
+<text x="370" y="458" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.763</text>
+<text x="560" y="458" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.761</text>
+<text x="715" y="458" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.777</text>
+<line x1="80" y1="466" x2="780" y2="466" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="484" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Precision (churn)</text>
+<text x="370" y="484" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.539</text>
+<text x="560" y="484" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.535</text>
+<text x="715" y="484" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.561</text>
+<line x1="80" y1="492" x2="780" y2="492" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="510" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Recall (churn)</text>
+<text x="370" y="510" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.765</text>
+<text x="560" y="510" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.775</text>
+<text x="715" y="510" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.735</text>
+<line x1="80" y1="518" x2="780" y2="518" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >F1-score (churn)</text>
+<text x="370" y="536" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.632</text>
+<text x="560" y="536" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.633</text>
+<text x="715" y="536" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.637</text>
+<line x1="80" y1="544" x2="780" y2="544" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="562" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >PR-AUC</text>
+<text x="370" y="562" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.648</text>
+<text x="560" y="562" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.648</text>
+<text x="715" y="562" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.655</text>
+<line x1="80" y1="570" x2="780" y2="570" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="94" y="588" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >ROC-AUC</text>
+<text x="370" y="588" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2933" >0.841</text>
+<text x="560" y="588" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.840</text>
+<text x="715" y="588" font-size="14" font-weight="normal" text-anchor="middle" fill="#1f2933" >0.840</text>
+<text x="430" y="618" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >Best value per row in bold · CatBoost chosen for best F1 and PR-AUC</text>
+<rect x="830" y="290" width="710" height="330" rx="18" fill="#fff" stroke="#dd6b20" stroke-width="2"/>
+<text x="850" y="320" font-size="17" font-weight="bold" text-anchor="start" fill="#c05621" >Customer value segmentation (K-Means, K = 3)</text>
+<rect x="850" y="338" width="210" height="62" rx="14" fill="#D7F2D0" stroke="#1f2933" stroke-width="1.6"/>
+<text x="955" y="360" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >High value</text>
+<text x="955" y="378" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#1f2933" >29.6% of customers</text>
+<text x="955" y="394" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >churn 18.0%</text>
+<rect x="1080" y="338" width="210" height="62" rx="14" fill="#FFD9B8" stroke="#c05621" stroke-width="2"/>
+<text x="1185" y="360" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Medium value</text>
+<text x="1185" y="378" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#1f2933" >33.0% of customers</text>
+<text x="1185" y="394" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#c05621" >churn 51.7%</text>
+<rect x="1310" y="338" width="210" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="1415" y="360" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Low value</text>
+<text x="1415" y="378" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#1f2933" >37.4% of customers</text>
+<text x="1415" y="394" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >churn 11.2%</text>
+<rect x="850" y="414" width="670" height="192" rx="10" fill="#F4F5F7" stroke="#cbd2d9" stroke-width="1.2"/>
+<text x="870" y="438" font-size="14.5" font-weight="bold" text-anchor="start" fill="#1f2933" >Value tier × churn risk (High / Low) = 6 clusters → marketing approach</text>
+<text x="875" y="466" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >High risk · High value</text>
+<text x="1135" y="466" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="466" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Personalized Retention</text>
+<text x="875" y="490" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Low risk · High value</text>
+<text x="1135" y="490" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="490" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Cost-conscious Retention</text>
+<text x="875" y="514" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >High risk · Medium value</text>
+<text x="1135" y="514" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="514" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Cost-conscious Retention</text>
+<text x="875" y="538" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Low risk · Medium value</text>
+<text x="1135" y="538" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="538" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Upsell</text>
+<text x="875" y="562" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >High risk · Low value</text>
+<text x="1135" y="562" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="562" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Basic</text>
+<text x="875" y="586" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2933" >Low risk · Low value</text>
+<text x="1135" y="586" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >→</text>
+<text x="1165" y="586" font-size="14" font-weight="bold" text-anchor="start" fill="#1f2933" >Engagement</text>
+<rect x="60" y="650" width="930" height="150" rx="18" fill="#fff" stroke="#1f2933" stroke-width="1.8"/>
+<text x="80" y="678" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Streamlit Campaign Optimizer</text>
+<rect x="80" y="694" width="190" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="175" y="720" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Upload</text>
+<text x="175" y="742" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >scored customers (CSV)</text>
+<line x1="274" y1="725" x2="306" y2="725" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="310" y="694" width="190" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="405" y="720" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Filter</text>
+<text x="405" y="742" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >by churn risk &amp; value</text>
+<line x1="504" y1="725" x2="536" y2="725" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="540" y="694" width="190" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="635" y="720" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Explore</text>
+<text x="635" y="742" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >insights &amp; tactics</text>
+<line x1="734" y1="725" x2="766" y2="725" stroke="#1f2933" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="770" y="694" width="190" height="62" rx="14" fill="#FFF1B8" stroke="#1f2933" stroke-width="1.6"/>
+<text x="865" y="720" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#1f2933" >Download</text>
+<text x="865" y="742" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#52606d" >segment reports</text>
+<text x="525" y="784" font-size="13.5" font-weight="normal" text-anchor="middle" fill="#52606d" >Output: targeted retention, upsell and engagement campaigns for each customer segment</text>
+<rect x="1020" y="650" width="520" height="150" rx="18" fill="#F4F5F7" stroke="#cbd2d9" stroke-width="1.4"/>
+<text x="1040" y="678" font-size="17" font-weight="bold" text-anchor="start" fill="#1f2933" >Why it matters</text>
+<circle cx="1048" cy="703" r="5" fill="#2b6cb0"/>
+<text x="1064" y="708" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >Risk-aware targeting: budget goes where it matters</text>
+<circle cx="1048" cy="728" r="5" fill="#2b6cb0"/>
+<text x="1064" y="733" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >Explainable: SHAP drivers (contract, engagement)</text>
+<circle cx="1048" cy="753" r="5" fill="#2b6cb0"/>
+<text x="1064" y="758" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >Imbalance-aware: class weights + tuned threshold</text>
+<circle cx="1048" cy="778" r="5" fill="#2b6cb0"/>
+<text x="1064" y="783" font-size="13.5" font-weight="normal" text-anchor="start" fill="#1f2933" >Transparent ROI / CLV framework (hypothetical)</text>
+<text x="800.0" y="845" font-size="13.5" font-weight="normal" text-anchor="middle" fill="#52606d" >Tools: Python · scikit-learn · XGBoost · LightGBM · CatBoost · SHAP · K-Means / PCA · Plotly · Streamlit</text>
+</svg>

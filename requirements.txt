@@ -1,0 +1,22 @@
+# Core
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.5
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# Modeling
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+imbalanced-learn>=0.12
+shap>=0.45
+
+# App
+streamlit>=1.35
+
+# Notebooks
+jupyter
+missingno>=0.5
+category_encoders>=2.6
